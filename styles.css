@@ -10,18 +10,18 @@ body, html {
 
 /* Intro Section */
 .intro {
-  width: 65vw; /* Full width of the viewport */
-  height: 55vh; /* Full height of the viewport */
+  width: 65vw; 
+  height: 55vh; 
   bottom:0;
   right: 0;
   color: #0ff;
   text-shadow: 
-  0 0 5px #ff0000,    /* Smallest shadow - red */
-  0 0 10px #ff0000,   /* Slightly larger shadow - red */
-  0 0 15px #ff5500,   /* Larger shadow - transitioning from red to orange */
-  0 0 20px #ffaa00,   /* Larger shadow - orange to yellow */
-  0 0 30px #ffaa00,   /* Even larger shadow - yellow */
-  0 0 40px #ffff00,   /* Larger shadow - yellow */
+  0 0 5px #ff0000,  
+  0 0 10px #ff0000,   
+  0 0 15px #ff5500,   
+  0 0 20px #ffaa00,   
+  0 0 30px #ffaa00,   
+  0 0 40px #ffff00,   
   0 0 50px #ffff00;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ body, html {
     0 0 40px rgba(0, 255, 255, 0.4),
     -10px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
   font-size: 8px;
-  z-index: 1; /* Ensure it's above other content */
+  z-index: 1; 
   pointer-events: auto; /* Ensure elements inside are clickable */
 }
 
@@ -330,6 +330,10 @@ body, html {
   .background-video{
     object-position: left;
   }
+  .intro{
+height:50vh;
+    width: 60vw;
+  }
   .card-container {
     flex-direction: column;
     align-items: center;
@@ -415,7 +419,7 @@ body, html {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-80px); /* Adjust the height of the jump */
+    transform: translateY(-80px); 
   }
 }
 
