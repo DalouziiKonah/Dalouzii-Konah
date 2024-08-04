@@ -411,10 +411,6 @@ body, html {
     height: 90vh;
     width: auto;
   }
-
-  .hidden-card h1 {
-    margin-top: 70px;
-  }
 }
 .icons{
   font-size: 2em;
