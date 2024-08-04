@@ -342,7 +342,6 @@ height:50vh;
   .hidden-card.active{
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 40vw;
 
   }
   .hidden-card{
