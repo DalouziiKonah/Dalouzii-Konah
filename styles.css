@@ -373,7 +373,7 @@ body, html {
   .intro h1, .intro p {
     text-shadow: none; 
     color: #00f;
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .intro * {
