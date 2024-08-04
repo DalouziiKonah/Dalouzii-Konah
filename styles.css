@@ -328,7 +328,7 @@ body, html {
 /* Media Queries */
 @media (max-width: 768px) {
   .background-video{
-    object-position: left;
+    object-position: center;
   }
   .intro{
 height:50vh;
