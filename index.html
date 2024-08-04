@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="video-container">
+      <video autoplay muted loop id="background-video">
+        <source src="/images/background.mp4" type="video/mp4">
+      </video>
+      <div class="card-container">
+        <div class="card" id="about-me">About Me</div>
+        <div class="card" id="services">Services</div>
+        <div class="card" id="contact">Contact </div>
+        <div class="card" id="my-works">Works</div>
+        <!--<div class="card" id="portfolio">Portfolio</div>-->
+      </div>
+      <div class="intro">
+        <h1 data-text="Francis Konah">Dalouzii Konah</h1>
+        <p data-text="">Front End Developer.</p>
+        <div class="glitch-container"></div>
+      </div>
+    </div>
+    <div class="hidden-card" id="my-works-hidden">
+      <h1>My Works</h1>
+      <p>Currently, this <a href="https://dalouziikonah.github.io/My-Portfolio/">Portfolio</a> is the only project I've completed so far, as I've just started my journey as a front-end developer. I am actively working on several exciting new projects, and I look forward to showcasing them here soon. Stay tuned for updates as I continue to enhance my skills and add more work to my portfolio!</p>
+      <button class="close-btn" type="button">Close</button>
+  </div>
+  
+    <div class="hidden-card" id="about-me-hidden">
+      <h1>About Me</h1>
+      <p>Hello! Dalouzii Konah here. I’m a passionate front-end developer specializing in creating visually engaging and
+        user-friendly UI websites. With a keen eye for design and a strong command of modern web technologies, I build
+        responsive, interactive web interfaces that deliver seamless user experiences. My expertise includes HTML, CSS,
+        JavaScript, and popular frameworks like React and Vue.js.
+      </p>
+      <p>Currently, I’m expanding my skill set by diving into backend development, learning to integrate front-end
+        interfaces with robust server-side functionalities. Whether it's crafting stunning visuals, optimizing
+        performance, or building full-stack applications, I’m dedicated to bringing your web project to life with
+        precision and creativity. Let’s make something amazing together!
+      </p>
+      <button class="close-btn" type="button">Close</button>
+    </div>
+    <div class="hidden-card" id="services-hidden">
+      <h1>Services</h1>
+      <ul>
+        <li>
+          Custom UI/UX Design: Crafting aesthetically pleasing and intuitive user interfaces tailored to your brand.
+        </li>
+        <li>
+          Responsive Web Design: Ensuring your website looks great and functions well on all devices, from desktops to
+          mobile phones.
+        </li>
+        <li>
+          Front-End Development: Building dynamic and interactive web pages using modern JavaScript frameworks and
+          libraries.
+        </li>
+        <li>Performance Optimization: Enhancing website speed and efficiency through best practices in coding and
+          resource management.</li>
+          <li>
+            Cross-Browser Compatibility: Ensuring consistent appearance and functionality across various web browsers.
+          </li>
+          <li>
+            Interactive Features: Implementing animations, transitions, and other interactive elements to engage users.
+          </li>
+      </ul>
+      <button class="close-btn" type="button">Close</button>
+    </div>
+    <div class="hidden-card" id="contact-hidden">
+      <h1>Contact</h1>
+      <div class="icons">
+          <a href="tel:9612324209" title="phone"><i class="fas fa-phone"></i>9612324209</a>
+          <a href="https://wa.me/9612324209" target="blank" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:dalouziikonah4200@gmail.com" title="email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.instagram.com/dalouziikonah?igsh=MXVyZmIxZWxxaHlubw=="><i class="fab fa-instagram"></i></a>
+         
+      </div>
+      <button class="close-btn" type="button">Close</button>
+    </div>
+    <!--<div class="hidden-card" id="portfolio-hidden">
+      <h1>Portfolio</h1>
+      <p>Loading...</p>
+    </div>-->
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
