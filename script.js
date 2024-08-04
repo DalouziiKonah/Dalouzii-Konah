@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function startAnimationSequence() {
     activateIcon(currentIndex);
     currentIndex = (currentIndex + 1) % icons.length;
-    setTimeout(startAnimationSequence, 1600); // Total duration: 800ms shake + 800ms delay
+    setTimeout(startAnimationSequence, 1600); 
   }
 
   startAnimationSequence();
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
           activeCard.style.display = 'none';
       }
   });
-
+// close button
   closeButtons.forEach(btn => {
       btn.addEventListener('click', (event) => {
           hiddenCards.forEach(hiddenCard => {
